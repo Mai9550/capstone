@@ -1,10 +1,12 @@
-import { validate } from './validateRequest'
-import { handleSubmit } from './formHandler'
+import { validate } from './js/validateRequest'
+import { submit } from './js/formHandler'
+import { performAction } from './js/app'
 
-import './style.scss'
+import './styles/style.scss'
 
 
 export {
     validate,
-    handleSubmit
+    submit,
+    performAction
 }

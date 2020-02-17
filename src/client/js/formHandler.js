@@ -1,9 +1,10 @@
-const submit=document.getElementById('generate').addEventListener("click",handleSubmit);
+
+    const submit=document.getElementById('generate').addEventListener("click",handleSubmit);
 function handleSubmit(event) {
     event.preventDefault()
 
     // check what text was put into the form field
-    let formText = document.getElementById('generate').value
+    let formText = document.getElementById('generate').value;
     Client.validate(formText)
 
     console.log("::: Form Submitted :::")
@@ -17,10 +18,14 @@ function handleSubmit(event) {
         console.log(res); 
         document.getElementById('results').innerHTML = res.message;
     })
+
+
+
 }
 
+ export { submit };
 
 
 
 
-export { submit };
+

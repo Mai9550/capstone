@@ -20,7 +20,7 @@
     "geonames": "^0.2.1",
     "pixabay": "0.0.1",
     "sky": "^0.5.0",
-    "webpack": "^4.41.5",
+    "webpack": "^4.41.6",
     "webpack-cli": "^3.3.10"
   },
   "devDependencies": {

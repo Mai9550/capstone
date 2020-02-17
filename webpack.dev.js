@@ -18,6 +18,7 @@ module.exports = {
                 test: '/\.js$/',
                 exclude: /node_modules/,
                 loader: "babel-loader"
+                
             },
             {
                 test: /\.scss$/,
@@ -27,7 +28,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./src/website/index.html",
+            template: "./src/client/views/index.html",
             filename: "./index.html",
         }),
         new CleanWebpackPlugin({
